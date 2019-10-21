@@ -5,7 +5,7 @@ This data set contains 416 liver patient records and 167 non liver patient recor
 Any patient whose age exceeded 89 is listed as being of age "90".
 Columns:
 	•	Age of the patient
-	•	Gender of the patient
+	•	Gender of the patient (1 - Female || 2 - Male)
 	•	Total Bilirubin
 	•	Direct Bilirubin
 	•	Alkaline Phosphotase
@@ -14,7 +14,7 @@ Columns:
 	•	Total Protiens
 	•	Albumin
 	•	Albumin and Globulin Ratio
-	•	Dataset: field used to split the data into two sets (patient with liver disease, or no disease)
+	•	Dataset: field used to split the data into two sets (patient with liver disease, or no disease) 1 - Liver Patients || 2 - Non Liver Patients
 Acknowledgements
 This dataset was downloaded from the UCI ML Repository:
 Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
